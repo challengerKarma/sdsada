@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Работа</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220501001355">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll-show data-scroll="105" class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<a href="index.html" class="menu__logo _icon-logo"></a>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="portfolio.html" class="menu__link">Портфолио</a></li>
+							<li class="menu__item"><a href="" class="menu__link">услуги и цены</a></li>
+							<li class="menu__item"><a href="" class="menu__link">контакты</a></li>
+
+						</ul>
+					</nav>
+					<a href="tel:+79184123443" class="menu__phone _icon-phone">+7 918 412-34-43</a>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+			<button hidden type="button" id="arrow-top" class="go-top _icon-arrow-goto"></button>
+		</header>
+		<main class="page-work _fb">
+
+
+
+			<section class="work__callback callback">
+				<div class="callback__container">
+					<div class="callback__popup">
+						<button type="button" data-popup="#callback" class="callback__button _icon-arrow">
+							оставить заявку на проект
+						</button>
+
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__links">
+					<a href="" class="footer__link">houzz</a>
+					<a href="" class="footer__link">instagram</a>
+				</div>
+				<div class="footer__copy">© 2022 LA Design, all rights reserved.</div>
+			</div>
+		</footer>
+	</div>
+	<div id="callback" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<div class="popup__title">
+						<h3>оставЬТЕ СВОИ КОНТАКТЫ. мЫ СВЯЖЕМСЯ С ВАМИ И ОБСУДИМ ВАШ ПРОЕКТ</h3>
+					</div>
+					<form action="#" data-dev data-popup-message="#thanks" class="popup__form form-popup">
+						<div class="form-popup__line">
+
+							<input id="input-name" data-validate data-required autocomplete="off" type="text" name="form[]" data-error="Поле обязательно для ввода" placeholder="" class="form-popup__input">
+							<label class="input-name__label" for="input-name">Ваше имя</label>
+						</div>
+						<div class="form-popup__line">
+							<input id="input-tel" data-validate data-required autocomplete="off" type="tel" name="form[]" data-error="Поле обязательно для ввода" placeholder="" class="form-popup__input">
+							<label class="input-tel__label" for="input-tel">Ваш телефон</label>
+						</div>
+						<div class="form-popup__bottom">
+
+							<button type="submit" class="form-popup__button button _icon-arrow">отправить</button>
+							<div class="form-popup__info">Нажимая на кнопку, я даю <a href="https://www.google.com/webhp?hl=ru&sa=X&ved=0ahUKEwiNtsWVwrf3AhWDn4sKHSy4DlQQPAgI">согласие
+									на обработку
+									персональных
+									данных</a></div>
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="thanks" aria-hidden="true" class="popup-thanks">
+		<div class="popup-thanks__wrapper">
+			<div class="popup-thanks__content">
+				<button data-close type="button" class="popup-thanks__close"></button>
+				<div class="popup-thanks__body">
+					<div class="popup-thanks__img"><img src="img/check.svg" alt=""></div>
+					<div class="popup-thanks__title">
+						<h3>Ваша Заявка успешно отправлена</h3>
+					</div>
+					<div class="popup-thanks__text">Спасибо, что обратились в нашу студию. Наш дизайнер с вами свяжется</div>
+					<div class="popup-thanks__social">
+						<a href="" class="popup-thanks__link">houzz</a>
+						<a href="" class="popup-thanks__link">facebook</a>
+						<a href="" class="popup-thanks__link">vkontakte</a>
+						<a href="" class="popup-thanks__link">instagram</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220501001355"></script>
+</body>
+
+</html>
